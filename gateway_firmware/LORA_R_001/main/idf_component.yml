@@ -1,0 +1,8 @@
+## IDF Component Manager Manifest File
+
+dependencies:
+  espressif/esp_modem: "==2.0.1"
+  espressif/ssd1306: "^1.0.5"
+
+  idf:
+    version: ">=4.1.0"
