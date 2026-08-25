@@ -24,7 +24,7 @@ void lora_app_init(void)
     setExplicitHeaderMode();
 
     // Frequency
-    setFrequency(433);
+    setFrequency(915);
 
     // TX Power
     setTxPower(17);

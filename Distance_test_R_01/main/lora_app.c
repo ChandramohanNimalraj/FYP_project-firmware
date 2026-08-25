@@ -46,13 +46,13 @@ void lora_app_init(void)
     // Use explicit LoRa header mode
     setExplicitHeaderMode();
 
-    // Set frequency to 433 MHz
-    setFrequency(433);
+    // Set frequency to 915 MHz
+    setFrequency(915);
 
     // Set receiver mode
     setRxMode();
 
-    printf("LoRa frequency : 433 MHz\n");
+    printf("LoRa frequency : 915 MHz\n");
     printf("Header mode    : Explicit\n");
     printf("Expected frame : %d bytes\n",
            EXPECTED_FRAME_LENGTH);

@@ -29,13 +29,13 @@ void lora_app_init(void)
 
     setExplicitHeaderMode();
 
-    setFrequency(433);
+    setFrequency(915);
 
     setTxPower(17);
 
     setRxMode();
 
-    printf("LoRa frequency : 433 MHz\n");
+    printf("LoRa frequency : 915 MHz\n");
     printf("TX power       : 17 dBm\n");
     printf("Header mode    : Explicit\n");
     printf("LoRa ready\n");
